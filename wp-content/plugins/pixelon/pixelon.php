@@ -77,7 +77,7 @@ function pixelon_veure_histories($atts = array()){
 	<div class="sharethis-inline-share-buttons"></div>
 	<?php
 	echo "</div>";
-
+	
 }
 
 

@@ -216,7 +216,7 @@ function createDownloadLink(blob) {
 		  var xhr=new XMLHttpRequest();
 		  xhr.onload=function(e) {
 		      if(this.readyState === 4) {
-
+		      		//capturan dades per gravacio BBDD
 		          	console.log("Server returned: ",e.target.responseText);
 		         	//jQuery("#acabat").val("penjat");
 		          	var user_id=jQuery("#user_id").val();
@@ -224,23 +224,19 @@ function createDownloadLink(blob) {
 		          	var titol=jQuery("#titol").val();
 					var ima=jQuery('#url_ima').val();
 					var audio=jQuery("#url_audio").val();	//fase user_id
-
-					/*
-	var text_resum=jQuery("#text_resum").val();
-            var musica=jQuery('#musica').val();
-					*/			
+			
 		          	console.log("Guardo BBDD:" +titol+" \n "+ima+" \n"+ audio);
 		          	
-		          	if(fase==2){ //fase nus o desenllaç
+		          	if(fase==2){ //fase nus 
 		          		url="https://voraelfoc.net/wp-content/plugins/pixelon/bbdd.php?id="+jQuery("#idHistoria").val();	
 
-		          	}else if(fase==3){
+		          	}else if(fase==3){ //estic a la fase final
 						url="https://voraelfoc.net/wp-content/plugins/pixelon/bbdd.php?id="+jQuery("#idHistoria").val()+"&musica_fons="+jQuery('#musica').val()+"&text_resum="+jQuery("#text_resum").val();	
 
-		          	}else{
+		          	}else{ //primera fase plantajament
 		          		url="https://voraelfoc.net/wp-content/plugins/pixelon/bbdd.php";
 		          	}
-		          	jQuery.ajax({
+		          	jQuery.ajax({ //envio a la BBDD 
 				        method: "POST",
 				        url: url,
 				        data: { "titol": titol, "ima":ima, "audio":audio,"fase":fase,"user_id":user_id }
@@ -255,12 +251,14 @@ function createDownloadLink(blob) {
 				          jQuery("#tapa" ).fadeOut( 2000, function() {
 				            // Animation complete.
 				            if(fase>=2){ //fase nus o desenllaç
+				            	//refresaco la pagina
 				            	location.reload();
 				        	}else{
+				        		
+				        		//vaig a la pagina de la creació
 				            	location.href="/historia/?idHistoria="+msg;
 				            }
-				          });
-				          
+				          });				          
 
 				          //alert("Assignment created correctly ");
 				        }
