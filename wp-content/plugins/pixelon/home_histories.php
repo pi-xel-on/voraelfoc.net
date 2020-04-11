@@ -86,7 +86,7 @@
                 <?php 
                 }else{
                 ?>
-                  <p class="text_resum">Pots sentir la historia fent clic aqui i disfruta de una historia apasionant, fantastica, protesta... que et trobaras? </p>
+                  <p class="text_resum">Pots escoltar el fragment de la història fent clic aquí i completa una història apassionant, fantàstica, de protesta... QUE ET TROBARÀS?</p>
                 <?php 
                 }?>
 

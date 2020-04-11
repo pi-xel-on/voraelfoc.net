@@ -87,6 +87,15 @@
 
           });
 
+           jQuery( ".no_sound" ).click(function() {
+
+            jQuery(document).scrollTop( jQuery(".selector_continua").offset().top -100);  
+            console.log("continua una historia");
+            continuaHistoria();
+            permisosMicro();
+
+          });
+
 
           jQuery( ".selector_nova" ).click(function() {
             console.log("nova historia");
@@ -474,18 +483,19 @@ div#tapa {
                       switch ($quin_punt_esta) {
                         case 2: //nus
                           ?>
-                          <h2 style="font-size: 4vh; padding: 25px; "> Ara podras grabar la trama de la historia, es d elo millor ja que la imaginació ha de estar al 100%</h2>
+                          <h2 style="font-size: 4vh; padding: 25px; "> Ara podràs enregistrar la trama de la història, deixa fluir la imaginació.
+</h2>
                           <?php
                           # code...
                           break;
 
                         case 3: //finalitzacio
                          ?>
-                          <h2 style="font-size: 4vh; padding: 25px; "> Finalitza la historia, dona-li el final que es mereix.</h2>
+                          <h2 style="font-size: 4vh; padding: 25px; "> Finalitza la història, dóna-li el final que es mereix.</h2>
                           <div id="selector_musica">
                             
 
-                            <label for="exampleFormControlSelect1">Selecciona una musica de fons:</label>
+                            <label for="exampleFormControlSelect1">Selecciona una música de fons:</label>
                             <select id="musica" name="musica"  class="form-group green-border-focus form-control " style="width: 70%;" >
                               <option value="">Sense Audio</option>
                               <option value="/audios/inspiradora_8k.wav" name="waveformFinal1">Inspiradora</option>
@@ -504,7 +514,7 @@ div#tapa {
 
                           </div>
                           <div id="texte_descriptiu"  class="form-group green-border-focus">
-                              <label for="text_resum">Escriu 4 paraules de la historia</label>
+                              <label for="text_resum">Escriu 4 paraules de la història</label>
                               <textarea class="form-control" name="text_resum" id="text_resum" rows="3"  style="width: 70%;" ></textarea>
                             </div>
                           </div>
@@ -584,7 +594,7 @@ div#tapa {
                       <ul class="ds-btn submit" style="display: none;">                           
                         <li>
                              <a class="btn btn-lg btn-danger" href="#gravador" onclick="envioUpdate();">
-                         <i class="glyphicon glyphicon-play-circle pull-left"></i><span>Guardar Historia<br><small style="color: white;"> <br>ja tens el audio, envia i gràcies per participar</small></span></a> 
+                         <i class="glyphicon glyphicon-play-circle pull-left"></i><span>Guardar el fragment<br><small style="color: white;"> <br>Gràcies per participar</small></span></a> 
                             
                         </li>
                         

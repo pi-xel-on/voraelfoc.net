@@ -119,10 +119,17 @@
   text-transform: none !important;
  }
  .no_sound{
- 	background: url("https://voraelfoc.net/wp-content/uploads/2020/04/Retro-Microphone-2.png")  	no-repeat center top;    
- 	width: 100%;
+ 	background: url(https://voraelfoc.net/wp-content/uploads/2020/04/Retro-Microphone-2.png) no-repeat center 20px #1d1d1d;
+    width: 100%;
     height: 140px;
     background-size: contain;
+    text-align: center;
+    font-size: 3vh;
+    color: #f5f3ee;
+    font-weight: 200 !important;
+    font-family: "Montserrat";
+    padding-top: 0%;
+    cursor: pointer;
  } 
 	</style>	
 	<script type="text/javascript">
@@ -177,12 +184,13 @@
 			    <div class="wpb_wrapper">  
 			    	<h2>Nus</h2>
 			    	<p class="nom_usu"><?php echo getName($usu_nus);	?></p>   
-			    	<?php echo   ($sound_nus != "") ? '<div id="audio-spectrum-nus"></div>' : '<div id="audio-spectrum-nus" style="display:none;"></div><div class="no_sound"></div>'; ?>          
+			    	<?php echo   ($sound_nus != "") ? '<div id="audio-spectrum-nus"></div>' : '<div id="audio-spectrum-nus" style="display:none;"></div><div class="no_sound">Continua la Història</div>'; ?>          
 
 			      
 			    </div>
 			  </div>
 			</div>
+
 
 			<div class="wpb_column vc_column_container vc_col-sm-4">
 			  <div class="vc_column-inner">
@@ -190,7 +198,7 @@
 			    	<h2>Desenllaç</h2> 
 			    	<p class="nom_usu"><?php echo getName($usu_final);	?></p>        
 
-			    	<?php echo   ($sound_final != "") ? '<div id="audio-spectrum-final"></div>' : '<div id="audio-spectrum-final" style="display:none;"></div><div class="no_sound"></div>'; ?>          
+			    	<?php echo   ($sound_final != "") ? '<div id="audio-spectrum-final"></div>' : '<div id="audio-spectrum-final" style="display:none;"></div><div class="no_sound">Continua la Història</div>'; ?>          
 			      
 			      <?php echo   ($sound_final != "") ? '' : ''; ?>
 			    </div>
@@ -264,12 +272,12 @@
 			  <div class="vc_column-inner" style="padding: 0;">
 			    <div class="wpb_wrapper" style="text-align: center">  			
 			    	   <div class="q_elements_holder two_columns responsive_mode_from_768">
-				    	   	<div class="q_elements_item <?php echo   ($current_user_id=="0") ? 'selector_registre' : 'selector_continua'; ?> "  data-1024-1280="133px 0px 135px 58%" data-480-600="133px 0px 135px 23%" data-480="133px 0px 135px 23%" data-animation="no" data-item-class="q_elements_holder_custom_223237" style="background-image: url(https://voraelfoc.net/wp-content/uploads/2018/02/home-single-image-1-1.jpg);background-position: center;vertical-align:top; background-repeat: no-repeat; background-color:white	 "><div class="q_elements_item_inner"><div class="q_elements_item_content q_elements_holder_custom_223237" style="padding:133px 0px 135px 62%"><div class="q_icon_with_title tiny custom_icon_image left_from_title "><div class="icon_text_holder" style=""><div class="icon_text_inner" style=""><div class="icon_title_holder"><div class="icon_holder " style=" "><img itemprop="image" style="" src="https://voraelfoc.net/wp-content/uploads/2018/01/separator.png" alt=""></div><h3 class="icon_title" style="color: #0d0d0d;">veuras que divertit potser formar part d'ella</h3></div><p style=""></p></div></div></div><div class="separator  transparent   " style="margin-top: -37px;"></div>
+				    	   	<div class="q_elements_item <?php echo   ($current_user_id=="0") ? 'selector_registre' : 'selector_continua'; ?> "  data-1024-1280="133px 0px 135px 58%" data-480-600="133px 0px 135px 23%" data-480="133px 0px 135px 23%" data-animation="no" data-item-class="q_elements_holder_custom_223237" style="background-image: url(https://voraelfoc.net/wp-content/uploads/2020/04/fotomicro-1.jpg);background-position: left;vertical-align:top; background-repeat: no-repeat; background-color:white	 "><div class="q_elements_item_inner"><div class="q_elements_item_content q_elements_holder_custom_223237" style="padding:133px 0px 135px 62%"><div class="q_icon_with_title tiny custom_icon_image left_from_title "><div class="icon_text_holder" style=""><div class="icon_text_inner" style=""><div class="icon_title_holder"><div class="icon_holder " style=" "><img itemprop="image" style="" src="https://voraelfoc.net/wp-content/uploads/2018/01/separator.png" alt=""></div><h3 class="icon_title" style="color: #0d0d0d;">Veuràs que divertit pot ser formar part d'ella</h3></div><p style=""></p></div></div></div><div class="separator  transparent   " style="margin-top: -37px;"></div>
 
 								<div class="wpb_text_column wpb_content_element ">
 									<div class="wpb_wrapper">
 										<h2 style="font-weight: 600 !important;"><?=$text_banner?><br>
-							<span style="font-weight: 300;">la</span>historia</h2>
+							<span style="font-weight: 300;">la</span>història</h2>
 
 									</div> 
 								</div> </div></div></div>

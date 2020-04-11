@@ -317,12 +317,12 @@ input[type="file"] {
 .files:before {
   content:"Arrastra la imatge o clica";
   position:absolute;
-  bottom:55px;;
+  bottom:35px;;
   left:0;
   right:0;
   display:block;
   text-align:center;
-  color:rgba(255,255,255,0.5);
+  color:rgba(255,255,255,1);
   font-weight:bold;
 }
 div#preview {
@@ -428,13 +428,13 @@ div#tapa {
         <!--FORMULARI NOVA HISTORIA-->
                   
                   <div class="container" style="background-color: white; width: 100%;">
-                    <p><input placeholder="Titol de la historia" id="titol" name="titol" style="font-size: 30px; width: 100%; margin-top: 15px; margin-bottom: 15px;" maxlength="16"></p>
+                    <p><input placeholder="Títol de la història" id="titol" name="titol" style="font-size: 30px; width: 100%; margin-top: 15px; margin-bottom: 15px;" maxlength="16"></p>
                     <div class="row2" style="background-color: white;">
 
                       <div >
                         <form method="post" action="#" id="form_ima" style="background-color: #ccc; margin-bottom: 20px;">
                           <label for="exampleInputEmail1">
-                            <span class="lang lang_ca" style="font-size: 2vh;">Pren-te una foto ben xula per a la teva historia.</span>
+                            <span class="lang lang_ca" style="font-size: 2vh;">Pren-te una foto ben bonica per a la teva història.</span>
                           </label>
                           <div class="form-group files">
                             <input type="file" id="upload_ima" class="form-control" multiple="" style="font-size: 2vh;">
@@ -467,7 +467,7 @@ div#tapa {
                       <ul class="ds-btn submit" style="display: none;">                           
                         <li>
                              <a class="btn btn-lg btn-danger" href="#gravador" onclick="envioNou();">
-                         <i class="glyphicon glyphicon-play-circle pull-left"></i><span>Guardar Historia<br><small style="color: white;"> <br>assegurat de tindre la imatge i el titol omplerts</small></span></a> 
+                         <i class="glyphicon glyphicon-play-circle pull-left"></i><span>Guardar el fragment<br><small style="color: white;"> <br>Assegurat de tindre la imatge i el títol omplerts</small></span></a> 
                             
                         </li>
                         
