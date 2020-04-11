@@ -17,14 +17,14 @@ El pluggin esta enmagatzemat a la carpeta  wp-content/plugins/pixelon/ despres j
 
 ## shortcodes
 
-###[grava_audios]
-s
-###[veure_historia]
+### [grava_audios]
 
-###[veure_block_histories]
+### [veure_historia]
 
-###[veure_home_histories]
+### [veure_block_histories]
 
-###[veure_histories]
+### [veure_home_histories]
+
+### [veure_histories]
 
 
