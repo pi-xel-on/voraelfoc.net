@@ -31,10 +31,9 @@ Els filtres poden ser diversos des d'històries completades, històries inacabad
 
 ## Taula Histories:
 
---
--- Estructura de la taula `histories`
---
-CREATE TABLE `histories` (
+Estructura de la taula `histories`
+
+*CREATE TABLE `histories` (
   `id` int(11) NOT NULL,
   `usu_intro` int(11) DEFAULT NULL,
   `audio_intro` text DEFAULT NULL,
@@ -50,7 +49,7 @@ CREATE TABLE `histories` (
   `ima` text DEFAULT NULL,
   `datetime` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `fecha_creacio` timestamp NOT NULL DEFAULT current_timestamp()
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;*
 
 
 
