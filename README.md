@@ -51,5 +51,13 @@ Estructura de la taula `histories`
   `fecha_creacio` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;*
 
+## Llenguatge i llibreries
 
+En la programació s'ha utilitzat els següents llenguatges: PHP, Javascript, CSS. Per la BBDD s'ha utilitzat la de Wodpress MySql.
+Les llibreries utilitzades són JQuery, Bootstrap, WaveSurfer
+
+## Postdata
+Per ser una eina desenvolupada durant solament 1 setmana de temps dintre la Hackovid ha quedat prou resultona i els inputs obtinguts per algun tester ha sigut satisfactòria.
+
+Idea creativa Pixelon
 
