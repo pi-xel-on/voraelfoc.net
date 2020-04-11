@@ -15,6 +15,16 @@ El pluggin esta programat per generar una serie de shortcodes que ficat dintre d
 El pluggin esta enmagatzemat a la carpeta  wp-content/plugins/pixelon/ despres ja especificarem que es cada arxiu.
 
 
-# shortcodes
+## shortcodes
+
+###[grava_audios]
+s
+###[veure_historia]
+
+###[veure_block_histories]
+
+###[veure_home_histories]
+
+###[veure_histories]
 
 
