@@ -42,19 +42,19 @@
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', 'grupferr_vorafoc' );
+define( 'DB_NAME', '' );
 
 
 
 /** MySQL database username */
 
-define( 'DB_USER', 'grupferr_vorafoc' );
+define( 'DB_USER', '' );
 
 
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', '94u!0Aradp9S' );
+define( 'DB_PASSWORD', '' );
 
 
 
