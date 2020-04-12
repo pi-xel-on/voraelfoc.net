@@ -77,11 +77,7 @@ Estructura de la taula `histories`
 ## Llenguatge i llibreries
 
 En la programació s'ha utilitzat els següents llenguatges: PHP, Javascript, CSS. Per la BBDD s'ha utilitzat la de Wodpress MySql.
-<<<<<<< HEAD
 Les llibreries utilitzades són JQuery, Bootstrap, WaveSurfer ![image](https://camo.githubusercontent.com/6289cd478372b4cc8ce68e6c513b6e24aeb2363f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d425344253230332d2d436c617573652d626c75652e737667)
-=======
-Les llibreries utilitzades són JQuery, Bootstrap, WaveSurfer ![Screenshot](https://camo.githubusercontent.com/6289cd478372b4cc8ce68e6c513b6e24aeb2363f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d425344253230332d2d436c617573652d626c75652e737667)
->>>>>>> 8aba3536784be6e9e5b66cfaccd65cae15d55ce4
 
 ## Navegadors recomanats
 Hem fica't un llista de navegadors recomanats, ja que utilitzem mediaDevices.getUserMedia per poder utilitzar el micròfon dels dispositius. I no tots els navegadors actuals són compatibles amb aquest sistema.
