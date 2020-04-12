@@ -60,14 +60,12 @@
 	if($current_user_id=="0"){
 		$he_colaborat=false;
 	}
-
-
 	//echo $current_user_id."---".$he_colaborat;
 	?>
 	<style type="text/css">
 		h2{
 			text-align: center;
-			font-size: 2vh;
+			font-size: 3.2vh !important;
 			color: #F2C95F !important;			
     		font-weight: 300 !important;
 		}

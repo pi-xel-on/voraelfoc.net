@@ -44,18 +44,13 @@ function startRecording() {
 	console.log("recordButton clicked");
 
 	
-	//makeWaveform();
-
-	/*
-		Simple constraints object, for more advanced audio features see
-		https://addpipe.com/blog/audio-constraints-getusermedia/
-	*/
+	//començo la grabacio
     
     var constraints = { audio: true, video:false }
 
- 	/*
-    	Disable the record button until we get a success or fail from getUserMedia() 
-	*/
+ 
+    //activo i desactivo botons
+	
 
 	recordButton.disabled = true;
 	stopButton.disabled = false;
@@ -67,6 +62,7 @@ function startRecording() {
     	https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 	*/
 
+	//navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
 	navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
 		console.log("getUserMedia() success, stream created, initializing Recorder.js ...");
 
@@ -254,7 +250,7 @@ function createDownloadLink(blob) {
 				            	//refresaco la pagina
 				            	location.reload();
 				        	}else{
-				        		
+
 				        		//vaig a la pagina de la creació
 				            	location.href="/historia/?idHistoria="+msg;
 				            }
