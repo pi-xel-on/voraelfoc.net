@@ -77,7 +77,7 @@ function pixelon_veure_histories($atts = array()){
 	<div class="sharethis-inline-share-buttons"></div>
 	<?php
 	echo "</div>";
-	
+
 }
 
 
@@ -167,7 +167,7 @@ function pixelon_grava_audio($atts = array()){
 	$urlPlugin= plugin_dir_url( __FILE__ );//("template_directory");
 	include("audio.php");
 	
-	echo "</div>";
+	//echo "</div>";
 }
 
 

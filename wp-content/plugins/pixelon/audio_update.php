@@ -515,7 +515,7 @@ div#tapa {
                           </div>
                           <div id="texte_descriptiu"  class="form-group green-border-focus">
                               <label for="text_resum">Escriu 4 paraules de la història</label>
-                              <textarea class="form-control" name="text_resum" id="text_resum" rows="3"  style="width: 70%;" ></textarea>
+                              <textarea class="form-control" name="text_resum" id="text_resum" rows="3" maxlength="150"  style="width: 70%;" ></textarea>
                             </div>
                           </div>
 
