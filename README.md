@@ -27,12 +27,12 @@ Creació d'una plataforma per generar històries cooperatives.
 La base és un Wordpress per aprofitar tot el sistema d'usuaris i recursos que ens pot oferir una plataforma tan oberta i opensource com és Wordpress amb una plantilla facilitada pel servidor utilitzat.
 
 Plugins Wordpress necessaris perquè la plaforma funcioni correctament Ultimate Members per poder fer un control d'usuaris mes eficaç i generar el formulari de registre i login.
-Un altre pluggin necessari és ACF (advance custom fields) que  permetrà crear un parell de camps nous per a l'usuari, aquest camp són ocults però s'utilitzen en la programació del pluggin. 
+Un altre plugin necessari és ACF (advance custom fields) que  permetrà crear un parell de camps nous per a l'usuari, aquest camp són ocults però s'utilitzen en la programació del plugin. 
 
-Desenvolupament d'un pluggin que  farà de gestor de tota la plataforma de gravació i de control del sistema, aquest pluggin és el core de tota l'aplicació.
-El pluggin està programat per generar una sèrie de shortcodes que ficat dintre del wordpress s'interpreten i generen les pàgines de l'aplicatiu, utilitza el tramat de taules de WP per alimentar-se i generem una altra, per al funcionament del sistema (taula histories). Totes les connexions a la BBDD s'agafa automàticament del config del wordpress.
+Desenvolupament d'un plugin que  farà de gestor de tota la plataforma de gravació i de control del sistema, aquest plugin és el core de tota l'aplicació.
+El plugin està programat per generar una sèrie de shortcodes que ficat dintre del wordpress s'interpreten i generen les pàgines de l'aplicatiu, utilitza el tramat de taules de WP per alimentar-se i generem una altra, per al funcionament del sistema (taula histories). Totes les connexions a la BBDD s'agafa automàticament del config del wordpress.
 
-El pluggin està emmagatzemat a la carpeta wp-content/plugins/pixelon/ despres ja especificarem que és cada arxiu.
+El plugin està emmagatzemat a la carpeta wp-content/plugins/pixelon/ despres ja especificarem que és cada arxiu.
 (https://github.com/pi-xel-on/voraelfoc.net/tree/master/wp-content/plugins/pixelon)
 
 ## shortcodes

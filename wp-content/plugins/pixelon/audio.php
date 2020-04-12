@@ -41,9 +41,9 @@
           jQuery(".no_log").html("");
 
 
-
           jQuery( "#open_side" ).click(function() {
-            jQuery(".side_menu_button_link").trigger( "click" );
+            location.href=" https://voraelfoc.net/register/"
+           //s jQuery(".side_menu_button_link").trigger( "click" );
           });         
 
 
@@ -52,7 +52,7 @@
         function openSide(){         
           console.log("openSide");
           clearInterval(myVar);
-          jQuery(".side_menu_button_link").trigger( "click" );
+          //jQuery(".side_menu_button_link").trigger( "click" );
         }
 
 

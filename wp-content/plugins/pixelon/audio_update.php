@@ -41,12 +41,16 @@
 
           jQuery( ".selector_registre" ).click(function() {
             console.log("registre");
-            jQuery(".side_menu_button_link").trigger( "click" );
+            location.href=" https://voraelfoc.net/register/"
+            //jQuery(".side_menu_button_link").trigger( "click" );
 
           });
 
           jQuery( "#open_side" ).click(function() {
-            jQuery(".side_menu_button_link").trigger( "click" );
+            //jQuery(".side_menu_button_link").trigger( "click" );
+
+            location.href=" https://voraelfoc.net/register/"
+           // jQuery(".side_menu_button_link").trigger( "click" );
           });         
 
 
