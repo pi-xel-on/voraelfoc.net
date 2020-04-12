@@ -5,14 +5,20 @@ Hola! som del projecte “vora el foc”.
 
 Jo sóc en Sergi Mussull i faig Producció d’audiovisual i programació. 
 Jo sóc en Jordi Marquès, sóc Desenvolupador i Cap de Projectes.
+
 Portem 20? (molts) anys treballant per empreses, corporacions, museus i altres institucions realitzant software i instal.lacions audiovisuals. 
 Sempre hem treballat utilitzant les darreres tecnologies com la realitat augmentada, la realitat virtual 360 amb Oculus, dissenyant aplicacions tant per ios com per Android, creant instal.lacions reactives, interactives, fotomaton, amb inteligencia artificial amb reconeixement de persones i desenvolupant molts altres projectes sempre innovadors.
+
 Ara, nosaltres com molts milers de vosaltres vivim confinats a casa. 
 El Jordi i jo mateix, som pares de família i estem vivint el millor possible tot el que comporta el confinament especialment amb la família. És per això que hem volgut satisfer les necessitats que tenim tots de vencer l'avorriment i de relacionar-nos entre nosaltres. amb una eina que ens permet expressar-nos, sentir-nos escoltats i corresponguts amb respostes a les nostres preocupacions, per més senzilles que siguin. Això reconforta. 
+
 El nostre desig és que amb vora al foc tant nens com gent gran trobar l'escalf de les paraules de gent que no sempre coneixeran . Amb respostes i potser nous punts de vista a les nostres inquietuds i dubtes.
 Amb una actitud de molta serietat o amb tocs d' humor que dibuixin un somriure a les nostres cares; amb un tó romàntic o sentimental, podràs expressar-te com vulguis. Tot serà Benvingut. Segur que totes les participacions tindran respostes úniques i meravelloses.
+
 Vora el foc és una Aplicació Web senzilla d'utilitzar. Ho podràs fer des del dispositiu que prefereixis, ja sigui un ordinador, una tablet o un mòbil. Quan ingressos podreu escoltar les participacions de la gent: històries per completar i històries finalitzades i sobretot, podràs iniciar una història personal i veure com la completa gent anònima. Per registrar-te, només caldrà el teu nom i un email per immediatament poder participar. 
-Esperem que us agradi tant com a nosaltres ens ha agradat preparar-la. Bones històries i bona estada a casa! si pot ser vora el foc. 
+Esperem que us agradi tant com a nosaltres ens ha agradat preparar-la. 
+
+Bones històries i bona estada a casa! si pot ser vora el foc. 
 
 
 ## Com hem fet voraelfoc.net
