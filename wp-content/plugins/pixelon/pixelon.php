@@ -31,7 +31,7 @@ function oaf_create_admin_menu() {
  
  add_menu_page ( 'PIXELON', 'PIXELON', 'manage_options', 'iesf_create_admin_menu_plugin', 'oaf_create_admin_menu_function', 'dashicons-admin-tools',0 );
 
- add_submenu_page ( 'iesf_create_admin_menu_plugin', 'Client Database', 'Client Database', 'manage_options', 'iesf_client_database', 'iesf_database_options_function' );
+ add_submenu_page ( 'iesf_create_admin_menu_plugin', 'Client Database', 'Crear Sitemap', 'manage_options', 'iesf_client_database', 'iesf_database_options_function' );
  
  
 }
@@ -41,7 +41,17 @@ function oaf_create_admin_menu_function() {
 }
 
 function iesf_database_options_function(){
-	echo "Client database";
+	echo "GENERO XML SITEMAP";
+	?>
+	<iframe src="https://voraelfoc.net/wp-content/plugins/pixelon/sitemap_generate.php" style="display: none;"></iframe>
+	URL SiteMap: <a href="https://voraelfoc.net/wp-content/plugins/pixelon/sitemap.xml" target="_blank">https://voraelfoc.net/wp-content/plugins/pixelon/sitemap.xml</a>
+	<?php
+
+	//include "Sitemap.php";
+	//$sitemap = new Sitemap("https://voraelfoc.net");
+	//$sitemap->setFilename("varaelfoc_sitemap");
+	//$sitemap->createSitemapIndex("https://voraelfoc.net/", "Today");
+
 }
 
 
